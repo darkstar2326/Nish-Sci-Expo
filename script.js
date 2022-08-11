@@ -42,7 +42,8 @@ var MenuItems = document.getElementById("MenuItems");
               [document.getElementById("myBtn25"), document.getElementById("myModal25")],
               [document.getElementById("myBtn26"), document.getElementById("myModal26")],
               [document.getElementById("myBtn27"), document.getElementById("myModal27")],
-              [document.getElementById("myBtn28"), document.getElementById("myModal28")]
+              [document.getElementById("myBtn28"), document.getElementById("myModal28")],
+              [document.getElementById("cart"), document.getElementById("cartmodal")]
 
 
 
@@ -73,3 +74,124 @@ var MenuItems = document.getElementById("MenuItems");
                 }
             });
         }
+
+       document.getElementById("tv").onclick = function(){
+        localStorage.setItem("Samsung TV","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("iphone").onclick = function(){
+        localStorage.setItem("I Phone 13","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("cube").onclick = function(){
+        localStorage.setItem("Rubik's Cube","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("popit").onclick = function(){
+        localStorage.setItem("Pop It","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("i20").onclick = function(){
+        localStorage.setItem("Hyundai i20","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("crysta").onclick = function(){
+        localStorage.setItem("Innova Crysta","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("surface").onclick = function(){
+        localStorage.setItem("Microsoft Surface","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("fold").onclick = function(){
+        localStorage.setItem("Galaxy Fold","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("clock").onclick = function(){
+        localStorage.setItem("Square Clock","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("map").onclick = function(){
+        localStorage.setItem("India Map","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("cpu").onclick = function(){
+        localStorage.setItem("CPU","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("periodic").onclick = function(){
+        localStorage.setItem("Periodic Table","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("water").onclick = function(){
+        localStorage.setItem("Water Bottle","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("sun").onclick = function(){
+        localStorage.setItem("Sun Glasses","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("monitor").onclick = function(){
+        localStorage.setItem("Monitor","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("camera").onclick = function(){
+        localStorage.setItem("Camera","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("tab").onclick = function(){
+        localStorage.setItem("Galaxy Tab A","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("dustbin").onclick = function(){
+        localStorage.setItem("Dustbin","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("kwid").onclick = function(){
+        localStorage.setItem("Renault Kwid","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("guitar").onclick = function(){
+        localStorage.setItem("Guitar","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("tennisball").onclick = function(){
+        localStorage.setItem("Tennis Ball","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("tennisracket").onclick = function(){
+        localStorage.setItem("Tennis Racket","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("mona").onclick = function(){
+        localStorage.setItem("Mona Lisa","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("pccam").onclick = function(){
+        localStorage.setItem("PC Camera","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("frame").onclick = function(){
+        localStorage.setItem("Photo Frame","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("fridge").onclick = function(){
+        localStorage.setItem("Refrigerator","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("geyser").onclick = function(){
+        localStorage.setItem("Geyser","1");
+        alert("You have successfuly bought the product!")
+       }
+       document.getElementById("bulb").onclick = function(){
+        localStorage.setItem("Bulb","1");
+        alert("You have successfuly bought the product!")
+       }
+
+      document.getElementById("cart").onclick = function(){
+        var keys = Object.keys(localStorage);
+        document.getElementById("cartread").innerHTML = keys + "<br>";
+     } 
+
+
+
